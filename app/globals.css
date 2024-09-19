@@ -1,7 +1,22 @@
+
 h1 {
-  text-align: left;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-style: solid;
+  border-radius: 30px;
+}
+
+button {
+  border-style: solid;
+  border-radius: 10px;
+}
+
+h2 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 
 label {
   text-align: center;
 }
+

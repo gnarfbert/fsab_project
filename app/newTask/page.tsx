@@ -1,10 +1,12 @@
 "use client";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 
 async function getList() {
     const res = await fetch("http://localhost:8080/task",  {method: "GET",});
-            
+    
+    
     }
 
 export default function Page() {

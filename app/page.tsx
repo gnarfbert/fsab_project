@@ -12,8 +12,19 @@ export default function Home() {
         Hello! Welcome to Your To Do List
       </h1>
       <button><Link href="/newTask">New Task</Link></button>
+      <h2>Current Tasks:</h2>
+      <ul>
+        <li>
+          Test Task
+        </li>
+      </ul>
+      <h2>Completed Tasks:</h2>
+      <ul>
+        <li>
+          Test task
+        </li>
+      </ul>
       </header>
-      <ul></ul>
     </div>
   );
 }
